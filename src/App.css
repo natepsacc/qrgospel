@@ -1,38 +1,54 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.imageDiv{
+  width: 100vw;
+  height: 100vh;
 }
+.controls{
+  z-index: 5;
+  text-align: center;
+  position: fixed;
+  top: 2vh;
+  width: 100vw;
+}
+.imgIndex{
+  z-index:1;
+  top: 0vh;
+  left: auto;
+  right: auto;
+}
+.button{
+  font-family: 'Courier New' monospace;
+  background-color: #ff000080;
+  color: black;
+  border-radius: 5px;
+  border-color: #e8000080;
+}
+#TitleLogo{
+  z-index: 5;
+  position: fixed;
+  top: 4vh;
+  left: 4vw;
+  right: auto;
+ height:10vh;
+  width: auto;
+  transition: 0.3s ;
+mix-blend-mode:  difference;
+animation:brightness 0.7s ease-in-out infinite alternate;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+@keyframes brightness {
+  0% {
+    opacity: 80;
+    filter: brightness(100%);
+    filter: hue-rotate(0deg);
+
   }
-}
+  100% {
+opacity: 90;
+filter: brightness(155%);
+filter: hue-rotate(245deg);
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
   }
 }
