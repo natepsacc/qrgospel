@@ -43,10 +43,10 @@
   left: 1vw;
   color: grey;
   opacity: 20%;
-  -webkit-transform: scale(10, 7);
--moz-transform: scale(10, 7);
--o-transform: scale(10, 7);
-transform: scale(10, 7);
+  -webkit-transform: scale(7, 7);
+-moz-transform: scale(7, 7);
+-o-transform: scale(7, 7);
+transform: scale(7, 7);
 letter-spacing: -3px;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
