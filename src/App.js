@@ -18,7 +18,7 @@ class App extends Component{
     super(props)
 
     // Initializing states
-    this.state = {height:'1000', width:'100vw'}
+    this.state = {height:'1700', width:'100vw'}
 
     // Bind context of 'this'
     this.handleZoomIn = this.handleZoomIn.bind(this)
@@ -67,7 +67,6 @@ class App extends Component{
       <Logo/>
         <button className="button" onClick={this.handleZoomIn}>zoom</button><br/>
         <button  className="button" onClick={this.handleZoomOut}>reset</button><br/>
-
       </div>
       <div className='imgIndex'>
       <LazyLoadImage
