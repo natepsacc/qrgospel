@@ -28,20 +28,20 @@ h1{
   z-index: 5;
   text-align: center;
   position: fixed;
-  top: 92vh;
+  top: 80vh;
   width: 100vw;
 }
 .imgIndex{
   position: absolute;
   z-index:4;
-  top: 0vh;
+  top: 2vh;
   left: auto;
   right: auto;
 }
 .overImgIndex{
   position: absolute;
   z-index:4;
-  top: 0vh;
+  top: 2vh;
   left: auto;
   right: auto;
   animation:brightness 7s ease-in-out infinite alternate;
