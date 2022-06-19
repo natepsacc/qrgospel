@@ -69,14 +69,11 @@ class App extends Component{
         <button  className="button" onClick={this.handleZoomOut}>reset</button><br/>
       </div>
       <div className='imgIndex'>
-      <LazyLoadImage
+      <img
       className='overImgIndex'
       style={imgStyle}
       ref={this.imgRef}
-         threshhold='1000'
-         placeholderSrc="https://storageapi.fleek.co/e7b18505-5349-459d-9fba-f427d40e6079-bucket/gif/loading.gif"
 
-            effect="blur"
            alt="A Sheet of red QR codes that contain the Four Gospels.  The Red QR codes are clustered in 4 seperate grids, with each grid resembling a depction of the Author when viewed in entirety."
            src={mSrcT} // use normal <img> attributes as props
             />
