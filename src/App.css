@@ -44,7 +44,7 @@ h1{
   top: 0vh;
   left: auto;
   right: auto;
-  animation:brightness 1.2s ease-in-out infinite alternate;
+  animation:brightness 7s ease-in-out infinite alternate;
 }
 .button{
   font-family: 'Courier New', monospace;
@@ -81,7 +81,7 @@ letter-spacing: -3px;
 #TitleLogo{
   z-index: 5;
   position: fixed;
-  top: 4vh;
+  top: 3vh;
   left: 4vw;
   right: auto;
  height:10vh;
@@ -103,7 +103,7 @@ animation:brightness 0.7s ease-in-out infinite alternate;
   100% {
 opacity: 90;
 filter: brightness(155%);
-filter: hue-rotate(245deg);
+filter: hue-rotate(359deg);
 
   }
 }
