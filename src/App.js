@@ -18,7 +18,7 @@ class App extends Component{
     super(props)
 
     // Initializing states
-    this.state = {height:'30', width:'100vw'}
+    this.state = {height:'1000', width:'100vw'}
 
     // Bind context of 'this'
     this.handleZoomIn = this.handleZoomIn.bind(this)
@@ -43,7 +43,7 @@ class App extends Component{
 
     // Increase dimension(Zooming)
     this.setState({
-      width : this.state.height + 1 + "vh",
+      width : this.state.height * 2,
     })
   }
 
@@ -57,7 +57,7 @@ class App extends Component{
   }
 
   render(){
-    const mSrc = "https://dl2.boxcloud.com/api/2.0/files/973076522497/content?preview=true&version=1051805679697&access_token=1!d3eEvon4QOv3zW3FeghLW_fpklU_HBD2oU47Mxq8-bBvADEh_xUywtFFwA-1EOTOSpaVa5S7rjnGl-_VsyjB9fxjtppIpmOYNe2deZOcUQdqW-IGHslj4lCLNDBycn-Vh7EP93PYOOv6qG5Q3rANTmtyiXerr_czUsCilEv56OS2lvC6QzCI8Jak5lNmXVlM6dKg5OR24X_0ZO6SNO_wIOPYd8Kr9e4KB-eHEhGc7vKQho4NUbPVbk2Iw8oU3o1C1itTeaAfIW3bRCwJTdBut_OAWAVpdtDiv6kKreh4Q9CfYDnlYNoM3DnuGWdZ--JeUhsAkKnlKlBbcBlTYCFu18-ObIwatQJRUkVFWLkFUSwFyBtcQlJ_uEPCg0hafsyCVGCqfiDUC3UWnwgqzUQoMPnbBnb8n40xAp9Ebd7Cz5sieSSiHvax2eEjPb17W_vKKJfVtF9KqPq5WN96L1-7P5nNNvWUcR49iLN4hkIT8rdtMi6X2rPibwhv0UX1cGjnlNufiUxaNjYQxDuPt19d64e5Twf8TeJ_B638Ui_i3GtF4TEXAbXZzDNF3AfPJaATDE0pCA7lU5VrluPXCURFM8TlYT3JJEo1jJB10aA7cBGAW6ghM6lYpVPc9BfVnvaTBN9sORirMIxEUKdzIqneqKglf5y3PvShnXrix65Bi30Cm7_w&box_client_name=box-content-preview&box_client_version=2.84.0";
+    const mSrc = "https://dl2.boxcloud.com/api/2.0/files/973083655043/content?preview=true&version=1051813378643&access_token=1!P962wwkM9UV3LIJWaHlejF6rwsEAXc3EnVE-2Lu6gwZcgb1ovW728Rr2_q5Bflsr-Ic75xfNKaYdDmyDByOwqKknZ-fzJqt-jGbxGY1Gw6_Dd8usGVUQHnDblRT3Vi-0LEySK4kU6NRXfhhCn58rOKzGzmObLoGX7b-HJQKNzSislbr-eigwiH_6cGSwj7U57heWD7A8PII3ZTU68YOXdecE05e7CtFOXR4IY9r9bmCbvCgcG127SIDYXzZdd7WZCllZbe8VWXQhgm2jxEEsnYXzkkSZNUAHOT7LIltmeUCRGMeASEv-pavYY7yySp22_oYEyuYd0SrZD6xOEWUkVXuLaObTG9BO2ynBm7tYcyf6EDNqsh0NxmVFpHELQK5NQHOp15V9tK6Og2ZpHzvak1DrOtfQYAysdPpxNQgaAYFhe_17eHprSaEbNY-mIhtnWtXVbj5f51Sob4z5FFaSoYld_XcDENCzhV9CkwrYLWvDhKUz-g4ClcdoYFjoTPkzbkaqLua1IOwes67fV3ipb0zFNthgg7eGotPhvT0dld-IB7xwBuEYB6_x6EqW5nTe8WXGFw9bJBWzJryQm-w_TJ3t0F-NrAd8Irf3ISoxXYyF-MCgRXcSPt2VvYfWO6iwGOmghsmCFcHwTgo5q1xV_n99Pc-Vk8CnHscKpGKIEXy4OtvD&box_client_name=box-content-preview&box_client_version=2.84.0";
 
     // Assign current height and width to the image
     const imgStyle = { height : this.state.height, width: this.state.width}

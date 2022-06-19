@@ -20,10 +20,14 @@
 }
 .button{
   font-family: 'Courier New' monospace;
+  font-size: 0.25vw;
+  height: auto;
+  width: auto;
+  padding: 0.1;
   background-color: #ff000080;
   color: black;
-  border-radius: 5px;
-  border-color: #e8000080;
+  border-radius: 3px;
+  border-color: #e8000003;
 }
 #TitleLogo{
   z-index: 5;
@@ -34,6 +38,8 @@
  height:10vh;
   width: auto;
   transition: 0.3s ;
+  background-color: #ff00004d;
+  border-radius: 50%;
 mix-blend-mode:  difference;
 animation:brightness 0.7s ease-in-out infinite alternate;
 
