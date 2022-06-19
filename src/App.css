@@ -21,7 +21,7 @@
 }
 .button{
   font-family: 'Courier New', monospace;
-  font-size: 24pt;
+  font-size: 12pt;
     height: auto;
   width: auto;
   padding: 0;
@@ -32,21 +32,21 @@
 }
 .bgtext{
   z-index: 2;
-
+  line-height: 60%;
   font-family: 'Courier New', monospace;
   font-weight: bold;
   width: 99vw;
-  font-size: 100%;
+  font-size: 12;
   height: auto;
   position: fixed;
   top: 33vh;
   left: 1vw;
   color: grey;
   opacity: 20%;
-  -webkit-transform: scale(7, 7);
--moz-transform: scale(7, 7);
--o-transform: scale(7, 7);
-transform: scale(7, 7);
+  -webkit-transform: scale(3, 7);
+-moz-transform: scale(3, 7);
+-o-transform: scale(3, 7);
+transform: scale(3, 7);
 letter-spacing: -3px;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
