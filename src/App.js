@@ -57,7 +57,8 @@ class App extends Component{
   }
 
   render(){
-    const mSrc = "https://dl2.boxcloud.com/api/2.0/files/973148211454/content?preview=true&version=1051884130654&access_token=1!7vEAplamebGlfmx_VjaVZ6MnMpyPqI2hLjmpZDA043JmIdx5FDIt_ftMNKtZ2913kKllJyy23Q_Z12yFomCuSxEtiRfxl9s2DyWkjbEDtDIA56yKQMV84kFzVfqRoH_Vjg73NC6JYWVmngBuAwOROhVOIHEFOAw1Rfcu_AagTcTgPb-GvEMTlFuxE4Dp9J5zI3BmMZD7FJwaVnQtJsBNzeMX_3WrwOmx3t5D9skbuco9mf5kF9ANsMaFsmyNlaRQzf9hSleutvnLKlv1-KB3z2a5TLGG44sq4-FHf6ESkIZN7m0tVcbzfYxp2I_8TqPFKRM96LA90PD_PIYAT--Jwg-WlGqH4EoxQwq1WHyO3wMRq1VSu-TARieoqdtmkqLYez4936sAH6ubUgmlGQbHoi3-XeSMQB9_7vU_JcElLvuMcV-kEAZdTlkn6XJc60MDPhBAOPU07l4K0T6AHEIv_t_G_71ZXO8tZlZ-Xr9hmtGdbMZC3gR3SCKyRR0MSRq9MOPcR0gy60H9DAI8ibToMkacB7NnB4QNDcwq5rETpDF2iHCmoqkTtN52TaGdiVWOWeVn4_BgW1_Op5FqRiCAg1sKIPAEAKUgY_IHEFMyw40dy1atHyzsHxdKeYyDEqjUy-6Bs2m3ew4ewfG4U8zvgBIJf0fo8jvpb63kfRrT__hA6wuW&box_client_name=box-content-preview&box_client_version=2.84.0"
+    const mSrc = "https://dl2.boxcloud.com/api/2.0/files/973148810735/content?preview=true&version=1051884755135&access_token=1!WCG7d0-E9wH0Cau7xGQhBXFpMmufpjoKbBQIiKnoRyKH34HczxXW0fTBcpHWB_C9W19nI3i03aDgSEMa9QPp0BIlrnExCPBWjwXVuiHQY_SSBujSz4WoktHASArj3hnP-XH86WssV7MrccxEGblWD0e4Eb-4nYButWc0ucbZ_EtKJmEGa-gm4dvR8O8MDMOREcUN2YIaxl-4Sk0Hb746o0srD01503ZikiNoK_quAotELkXUjeoGkHfrWQ9koibGBtiG_LoQNf-iWJ9mx7bYOBEjytSFMSBKEKNaTva1YwNvLKm_-tPw9YOTSiXBvjiRIto1ncsMC9z1udQQkS00c00K_rABgfnutuFqh0_B2JEMzmO3obIgvl-4aXONxfsMK1DALsJN7tDAERdRf7aZ40U9CMoiuoULnLKMPooGsetKb_3Q0HIS2HtP6Hjg6c6Kq5NieyUXAyv5mhQeNXMnIGWXk5HgxJ09e6TPr-9bPS8cpRVoDLmyYqhb-Bxivjc1nWf1tV-S8i6OUVF0tKNMh_c3T106SbR1MsQaQLJneBqWit5ZQWz8RN3kqFxwfXDttzruDtqNw9yng_ZH654P6oxWUpx-nIaLNInepmFm8vQ8ZsecGNwe3UjNN6UIhdMR3r8QDqkZS4dA05vyOocGpKi7IRN8WPNMrOmqksAHNAOlhtMZ&box_client_name=box-content-preview&box_client_version=2.84.0"
+    const mSrcT = "https://dl2.boxcloud.com/api/2.0/files/973148776264/content?preview=true&version=1051884904264&access_token=1!juUpw6l8rA0_wIlUR-GWUeLVL43aEbRau1n0mF2ScFFUUR_Wd77F0aVc8hAUhXeclFxkCdKpRW0cOpb0d5iyLqlDRjpSRPDBI-e8zsuvRVmdsQHoLy1Rn8RpzLGRp8emuGclKcugii9WptGJZ7-r-sl9-FqjX-bYsNr3RqZdHrK2QkG3NS5VosTrh4y9dIQXC-aKC9oyj_McJztMsDwjt1b8sNeZGLhO5mw5dVtAK9lyWdSpo0-otfXRa1PJ4VVjK3kp-J_ie6QPX9fPPTy-aapHOU4ABhxnSZxBhkBadZxKicYztkhs8FIzPHWmcMoRMvxwJ2JH4fueUadYoEyquX9C1TyD_u4CRofxwenebtgQc2ihA-NeZ68CQHgl7QPNvQ3p5Wz_aMdrQoo2g-QkNRpUHusTU-cw3TjyH4_B8fA9QjZHIlrT5Jdqghm8nlNWrjRqePoVZ-TG17I3I71-ZAeCZId3SHUvE7lyundjt3nL4ZXygQ-fXWuxFN1zR0ly_R467e3iCTSOTaQtxPjBCT1YNqeS6dJBwEUDn-vjZUnnRCcrOXUylGpT5bVseN5f8Zle_A1X_m4W4bJ_4Z4G-Z6KuxPaR-B7Vc03HCaFbqjCv6h0H9n5bnfLOBcc_PEA2vpP1JaSjyFytUqqXYKLrTrXQrvBrnAK7n0PnJaDD3N3U6YZ&box_client_name=box-content-preview&box_client_version=2.84.0"
     // Assign current height and width to the image
     const imgStyle = { height : this.state.height, width: this.state.width}
     return(
@@ -69,6 +70,18 @@ class App extends Component{
 
       </div>
       <div className='imgIndex'>
+      <LazyLoadImage
+      className='overImgIndex'
+      style={imgStyle}
+      ref={this.imgRef}
+         threshhold='1000'
+         placeholderSrc="https://storageapi.fleek.co/e7b18505-5349-459d-9fba-f427d40e6079-bucket/gif/loading.gif"
+
+            effect="blur"
+           alt="A Sheet of red QR codes that contain the Four Gospels.  The Red QR codes are clustered in 4 seperate grids, with each grid resembling a depction of the Author when viewed in entirety."
+           src={mSrcT} // use normal <img> attributes as props
+            />
+
         <LazyLoadImage
         className='imgIndex'
         style={imgStyle}

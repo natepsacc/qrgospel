@@ -38,6 +38,14 @@ h1{
   left: auto;
   right: auto;
 }
+.overImgIndex{
+  position: absolute;
+  z-index:4;
+  top: 0vh;
+  left: auto;
+  right: auto;
+  animation:brightness 1.2s ease-in-out infinite alternate;
+}
 .button{
   font-family: 'Courier New', monospace;
   font-size: 12pt;
