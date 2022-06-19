@@ -19,11 +19,11 @@
   right: auto;
 }
 .button{
-  font-family: 'Courier New' monospace;
-  font-size: 0.25vw;
+  font-family: 'Courier New', monospace;
+  font-size: 12pt;
   height: auto;
   width: auto;
-  padding: 0.1;
+  padding: 0;
   background-color: #ff000080;
   color: black;
   border-radius: 3px;
