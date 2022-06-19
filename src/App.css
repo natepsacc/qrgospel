@@ -1,3 +1,22 @@
+.center{
+  text-align: center;
+}
+.footer{
+  position: absolute;
+  z-index: 0;
+  top: 86vh;
+  left: 20vw;;
+  right: auto;
+  width: 25vw;
+}
+h1{
+  font-family: 'Courier New', monospace;
+  font-size: 12pt;
+  color: white;
+  opacity: 25%;
+  background-color:  grey;
+  width: auto;
+}
 .App {
   text-align: center;
 }
