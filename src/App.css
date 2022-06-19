@@ -36,17 +36,17 @@
   font-family: 'Courier New', monospace;
   font-weight: bolder;
   width: 99vw;
-  font-size: 700%;
+  font-size: 100%;
   height: auto;
   position: fixed;
   top: 33vh;
   left: 1vw;
   color: grey;
   opacity: 20%;
-  -webkit-transform: scale(0.8, 7);
--moz-transform: scale(0.8, 7);
--o-transform: scale(0.8, 7);
-transform: scale(0.8, 7);
+  -webkit-transform: scale(50vw, 7);
+-moz-transform: scale(50vw, 7);
+-o-transform: scale(50vw, 7);
+transform: scale(50vw, 7);
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
