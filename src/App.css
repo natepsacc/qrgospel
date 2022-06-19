@@ -28,7 +28,7 @@ h1{
   z-index: 5;
   text-align: center;
   position: fixed;
-  top: 2vh;
+  top: 92vh;
   width: 100vw;
 }
 .imgIndex{
@@ -81,8 +81,8 @@ letter-spacing: -3px;
 #TitleLogo{
   z-index: 5;
   position: fixed;
-  top: 3vh;
-  left: 4vw;
+  top: 2vh;
+  left: 2vw;
   right: auto;
  height:10vh;
   width: auto;
@@ -90,7 +90,7 @@ letter-spacing: -3px;
   background-color: #ff00004d;
   border-radius: 50%;
 mix-blend-mode:  difference;
-animation:brightness 0.7s ease-in-out infinite alternate;
+animation:brightness 1.7s ease-in-out infinite alternate;
 
 }
 @keyframes brightness {
