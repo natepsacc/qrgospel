@@ -96,7 +96,7 @@ class App extends Component{
 
 <div className="footer">
 <h1>
-*takes a second to load, refresh if it doesnt after 30s*
+*takes a second to load, refresh if it doesnt after 30s* firefox is iffy at best figuring that one out still* idk about chrome bc i dont use bad browsers*
 </h1>
 </div>
       </div>
