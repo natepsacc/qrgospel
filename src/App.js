@@ -57,7 +57,7 @@ class App extends Component{
   }
 
   render(){
-    const mSrc = "https://dl2.boxcloud.com/api/2.0/files/973083655043/content?preview=true&version=1051813378643&access_token=1!P962wwkM9UV3LIJWaHlejF6rwsEAXc3EnVE-2Lu6gwZcgb1ovW728Rr2_q5Bflsr-Ic75xfNKaYdDmyDByOwqKknZ-fzJqt-jGbxGY1Gw6_Dd8usGVUQHnDblRT3Vi-0LEySK4kU6NRXfhhCn58rOKzGzmObLoGX7b-HJQKNzSislbr-eigwiH_6cGSwj7U57heWD7A8PII3ZTU68YOXdecE05e7CtFOXR4IY9r9bmCbvCgcG127SIDYXzZdd7WZCllZbe8VWXQhgm2jxEEsnYXzkkSZNUAHOT7LIltmeUCRGMeASEv-pavYY7yySp22_oYEyuYd0SrZD6xOEWUkVXuLaObTG9BO2ynBm7tYcyf6EDNqsh0NxmVFpHELQK5NQHOp15V9tK6Og2ZpHzvak1DrOtfQYAysdPpxNQgaAYFhe_17eHprSaEbNY-mIhtnWtXVbj5f51Sob4z5FFaSoYld_XcDENCzhV9CkwrYLWvDhKUz-g4ClcdoYFjoTPkzbkaqLua1IOwes67fV3ipb0zFNthgg7eGotPhvT0dld-IB7xwBuEYB6_x6EqW5nTe8WXGFw9bJBWzJryQm-w_TJ3t0F-NrAd8Irf3ISoxXYyF-MCgRXcSPt2VvYfWO6iwGOmghsmCFcHwTgo5q1xV_n99Pc-Vk8CnHscKpGKIEXy4OtvD&box_client_name=box-content-preview&box_client_version=2.84.0";
+    const mSrc = "https://dl2.boxcloud.com/api/2.0/files/973089291489/content?preview=true&version=1051819468689&access_token=1!jxdIbmZ5Exa4KLa_55-YOCXplGoNQBWUzCu2Oquw5n3PucmKSYsO7pI_RniDwX8MRLbyyhHPAJpsqwvLp2UH4PSwpbivqOr9pksC3EOS5Jltq-2o1kQcGSHqoCtHzj2ymoxvJZrsZ4i-IP5qU2-_7PCYBj19lbQIP4kOBOm2fGlK7JTmGyM9cMGK5fMvh8EihRTgQSVt9Kd9HrOOkDDEtna2tLDZI9q3ktyQWBCcoUVkqdneDOqLfUyVA-Lob14tIRk2GXMWYIcwZEBz6hQkgMndM8cpTbo-aXGl9zMCjOiM8DuK_s09PqWLQtBxUUqNpaBLxOlINOctvOfSjTPtXA6IuF7bMzM6tQxxpT7TzWoLH4ipdvG0_wN6zMRvbkssscPXIvRAtD-Tpu6wOqz-EdSHRj-yhTq2pPZD_lftndXAUuMWZxq7NrVw4bqiFwDkX32rWjoAp_EqR7fDRzvVVCA9DwTwZ7qioQLhj1BiymmuHgElAA-f1y4bwEgoE9PdPuH5gsVZWBVGEsnr0z4ERlNmou0R70usq6DJu10ggC83yr7_GtD5vrazXwWf5EhLMl6S3LYCCQIq_k2QLjTeZMCny7cadrZ5dNNAFx7Sa4f7Q_cFrYQ---7nb2ckAfaCePlTpYA-p9QTol43K1X0OzXMueXFHv8SHQs04p-By9cIBSjQ&box_client_name=box-content-preview&box_client_version=2.84.0";
 
     // Assign current height and width to the image
     const imgStyle = { height : this.state.height, width: this.state.width}
@@ -70,6 +70,7 @@ class App extends Component{
       </div>
       <div className='imgIndex'>
         <LazyLoadImage
+        className='imgIndex'
         style={imgStyle}
         ref={this.imgRef}
            threshhold='1000'
@@ -81,6 +82,7 @@ class App extends Component{
               />
 
 </div>
+<div className="bgtext">.SCALABLE VECTOR GLORY</div>
       </div>
     )
   }

@@ -13,13 +13,15 @@
   width: 100vw;
 }
 .imgIndex{
-  z-index:1;
+  position: absolute;
+  z-index:4;
   top: 0vh;
   left: auto;
   right: auto;
 }
 .button{
   font-family: 'Courier New', monospace;
+  font-size: 24pt;
     height: auto;
   width: auto;
   padding: 0;
@@ -27,6 +29,26 @@
   color: black;
   border-radius: 3px;
   border-color: #e8000003;
+}
+.bgtext{
+  z-index: 2;
+
+  font-family: 'Courier New', monospace;
+  font-weight: bolder;
+  width: 99vw;
+  font-size: 700%;
+  height: auto;
+  position: fixed;
+  top: 33vh;
+  left: 1vw;
+  color: grey;
+  opacity: 20%;
+  -webkit-transform: scale(0.8, 7);
+-moz-transform: scale(0.8, 7);
+-o-transform: scale(0.8, 7);
+transform: scale(0.8, 7);
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
 }
 #TitleLogo{
   z-index: 5;
