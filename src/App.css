@@ -34,7 +34,7 @@
   z-index: 2;
 
   font-family: 'Courier New', monospace;
-  font-weight: bolder;
+  font-weight: bold;
   width: 99vw;
   font-size: 100%;
   height: auto;
@@ -43,10 +43,11 @@
   left: 1vw;
   color: grey;
   opacity: 20%;
-  -webkit-transform: scale(50vw, 7);
--moz-transform: scale(50vw, 7);
--o-transform: scale(50vw, 7);
-transform: scale(50vw, 7);
+  -webkit-transform: scale(10, 7);
+-moz-transform: scale(10, 7);
+-o-transform: scale(10, 7);
+transform: scale(10, 7);
+letter-spacing: -3px;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
