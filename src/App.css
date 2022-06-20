@@ -4,28 +4,41 @@
 .footer{
   position: absolute;
   z-index: 0;
-  top: auto;
-  bottom:3vh;
+  top: 50vh;
+  bottom:auto;
   left:auto;
-  right: 5%;
+  right: 25%;
   width: fit-content;
   background-color: red;
   padding: 5%;
   opacity: 80%;
+}
+.lqjpg{
+  position: absolute;
+  width:85vw;
+  height: auto;
+  z-index: 5;
+  top: 100vh;
+  bottom:auto;
+  left:0px;
+  right: auto;
+  width: fit-content;
+  padding: 0%;
+  opacity: 100%;
 }
 h1{
   font-family: 'Courier New', monospace;
   font-size: 12pt;
   color: white;
   opacity: 35%;
-  
+
   width: 50vw;
 }
 h2{
   font-family: 'Courier New', monospace;
   font-size: 24pt;
   color: white;
-  
+
   font-style: italic;
   width: auto;
 }
