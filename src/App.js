@@ -13,6 +13,7 @@ function Logo(){
 		</span>
 );
 }
+
 class App extends Component{
   constructor(props){
     super(props)
@@ -57,9 +58,10 @@ class App extends Component{
   }
 
   render(){
-    const mSrc = "https://dl2.boxcloud.com/api/2.0/files/973089291489/content?preview=true&version=1051819468689&access_token=1!GMKJluFu71RxTVPhMCaghZBOXNsUi5wmemTs7UICvoqMNFm0dqLINSAM6GfDXJJwfmKp-Rew3xnSdhUAd-KATr2-XM8l1ms-edIYtG2xEqUFmMTODcfqLBRunpI9p_yeqj6Wrymgylo4MfLQYKk6L-hDr2iT_i8cBx8hW3PtsGHNzgSL9K3I3mpE8ucvqNPOpEq3Gr1hRKBlGMJX-kTE2R2ArOtUSy0qUQp-ewBforROZUDtwANSa6Q7k0YmBSapfTKsB7KEIBQ39kPtwXMtrvQaQUNu6twb8RAwgXPSXGRuzPlbRR_7YCytGiPfoxjGMJeD4trhM-XbOmxKYmEkntAjbr31ooNMl-YisayyqqYvQxUPSnQnNiTG0SiwYBNdmaYkLMqLs1EFM30Mr1j__eXO-k2zT1TEjLxNCbszuJc4lvWyODd_Jwj7O74rVv2bylnFCPJVMnhkj-g58_fQPzAOFPQsIab7kKYQXJJN3g_AeI3fv_wj9PBRYWoYz0zJSYmRMkUZP7TXcKvegVpVWJh5NsE9fZ9ftDiFprHHOEluAoFEfg26MOmfLzQCvAIKJNiZRN7sp5gIgSTQSfOb8njFL38ozc3a8ON_rKrmDB84rfwmf7V0uJCm4h0NBwhpcw1ioFvOl4Taaylk79rP542oLY0_O_GweiYFB_Z53z6jFUqc&box_client_name=box-content-preview&box_client_version=2.84.0"
-		const mSrcT = "https://dl2.boxcloud.com/api/2.0/files/973148776264/content?preview=true&version=1051884904264&access_token=1!PbLqpTc2MNajlotVynakUaiJH07rEhVM2JYMlYWDZgdP96YPuxRIWtEcVYh_fV7m7aufu8k3Pl99WWq8FYxgxYeXXoRM_u1Q6rWgH3BFVaPKRUJJ5UvQSruLRE5_5Jo36fzpHoYQ6hM93EfFUamNIq2wtMBNQ3RftLaylu-RpDy9vkUdHi4eAxn7jmme3TwmTDbItUUOd3932hCtJbow6VFqlYbIs0efZqkU79MQjvqEmiT_WWZviukJAJHRHG37uHGy4VynmJrmnqEO16jtzdCOK6RTSDVRME98v6Z1wOJQ8COBw73-3Fa4-crsfIrWrxGdOEu3Zi34dgBiqNX8CHTjNX4bEFu1Qaxciz8GToKGOWorzeWzxusi7gruwVayB48UgEQbyOc1Htb88CauzlUEDM3NZ9ULErBI_2d9XjnxcA1HxudaDjLrWFZcicgKMDrFORrFgMdXPZi_-iqMIHcJf98DV5NNSd7I1QWi5qDHxqH2rPGhuXVe5UIUIdcjuJR3RZIlgnbH356qgs_6xScEdl5LHa9qNEU9JACSZvTg335KxBu6d0zwK_ryXBh3KEMmJhsvcc8FVZEemd-yWeMO560vmubmdjS1YVZ42HNz2ucRNimhUQjZbZmp-HYQatQcMpgy_8m3Ts9AEcFQc5nMUFT6QhPyaacofWxvOWpMebhg&box_client_name=box-content-preview&box_client_version=2.84.0"
+    const mSrc = "https://dl2.boxcloud.com/api/2.0/files/973148810735/content?preview=true&version=1051884755135&access_token=1!44xyLnqBaBAPjrBPnWeqrO8jsjmMnvIky1yCSKwLFIzWQER8XpMsFUcYwl85QuWTpHvGb87M69D_qrlQnOdgRYl6Rk24fci8jY0XUS6KFphNv5FuRmn8vSNSF39tSe9zFUyw9H7rU-1V17n8Kf0aCoVNVhB6TgLWWwiEWfhcGGG-_Sjw_KjXaE9GaPUkJhlLO_mOhy0ulbJDTGATXfH9tO94e9KwZW4pZJPkAJPYk1dFXlIzbsBKqPdR8wWnXCTrw6CI8GLRyJ3mfUs_cnYtcYsJIvYCZkuuW25LRrG11xPdj-_aBmCacYUJ2Et2ZHaO5T4guajLyfpMUjCJ7t7sat1c3FdxJbwy-_Z4NIWpKiYyTA7JZx16cgT-_OmhjnFgWE0sgvqrDJebiXi21iRcgq1UsxDoa23IGnFADDiFmrDY0YHOWnBK9nsqJ8XVbE5sWHS03bCEXHhS9e61m9tp-cApVDAMBBIHMgf6-Kdr8X7q8jCxl3zW5J53xt4zNths2A1GaMlyyjU0VdlV3UjuVK_SVXa0VixTOUhwHHBEhI6rpVArc4aIIA3el1fTzqvg8Fd3aSzc8FfbqxrxT4qr4nmz-UnCn7SDdFvQm8OCcifx10KNPy0csHeZdf8LimQh-AzvQRUOu__2AezMTAU1tFfoGhsAXbgUoyrOrDANPvkDVxRt&box_client_name=box-content-preview&box_client_version=2.84.0"
+		const mSrcT = "https://dl2.boxcloud.com/api/2.0/files/973148776264/content?preview=true&version=1051884904264&access_token=1!hdLr91BDyR1iiTgRUYxnHGFImSPd5ra_DoVTIBbQzFfA2PjuPFgVMCvFsEVQ2O-IE4qTt6xhXYuq2HMOfgivK8ahqxKntBLfQhKJBoRlM9T-PHlGW-ptnG5cjUAjnrpCGqr4BAp2Yq6pf5XAiBsKnwvq7tu15DBrupuZ7XVXGP4hmlGMgBTTjRzhwdKWHoeJXS9r1eccoPextgu_UCVIZFkSCWrOZTlBZ_otRSgitmSoyLlSTC_leAhHpKQ1AxMmEop19Y6FYgVuIedFZXqorOecIFtUtXvtELyyf6AcwBbgu3h8pkEoDarKfiLIJf54pIpWkEBgiG4RbkHxoJJ4d-AJXs53k364qo8hXD3XDmQAtMX4WuZOkLI4wbjn9fs9OrOHuTkpXXlYbNeJOVxkig87-DjIHpIuScHsGwLctjvB1B90EiA60E71NrTpiFlbcYD8geqOHRPKTc5vAb8gJyMu4TUc6lTNGybraTTbtIdfMQd1svPz_6FmpRQ3TPn1HQbjwOH9xfyxbBeno4v5NZAQ5FR4lLeaBDwSSvogUsHlXb0DhRqYeOHnsUGnxlLqjZf61hoDHuLqqLJp7mj3sKe_nCm3L1JBhsj2XFINefuoiuAiUtfmWZAlP_rP5ehPb72oSBwrVFmdW2OR_tkxHy5dACRNENnsk5NtKfgYsYX8SlI-&box_client_name=box-content-preview&box_client_version=2.84.0"
     // Assign current height and width to the image
+
     const imgStyle = { height : this.state.height, width: this.state.width}
     return(
       <div className='center'>
@@ -69,6 +71,7 @@ class App extends Component{
         <button  className="button" onClick={this.handleZoomOut}>reset</button><br/>
       </div>
       <div className='imgIndex'>
+
       <img
       className='overImgIndex'
       style={imgStyle}
