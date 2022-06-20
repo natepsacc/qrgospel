@@ -5,9 +5,9 @@
   position: absolute;
   z-index: 0;
   top: auto;
-  bottom:15vh;
-  left: 5vw;
-  right: auto;
+  bottom:3vh;
+  left:auto;
+  right: 5%;
   width: fit-content;
   background-color: red;
   padding: 5%;
