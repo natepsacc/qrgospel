@@ -7,7 +7,7 @@
   top: 75vh;
   left: 20vw;;
   right: auto;
-  width: 25vw;
+  width: fit-content;
   background-color: red;
 }
 h1{
