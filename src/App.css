@@ -5,11 +5,12 @@
   position: absolute;
   z-index: 0;
   top: auto;
-  bottom:minmax(1vh,15vh);
-  left: minmax(1vw,30vw);
+  bottom:15vh;
+  left: 5vw;
   right: auto;
   width: fit-content;
   background-color: red;
+  padding: 5%;
 }
 h1{
   font-family: 'Courier New', monospace;
@@ -23,7 +24,7 @@ h2{
   font-family: 'Courier New', monospace;
   font-size: 24pt;
   color: white;
-  opacity: 45%;
+  opacity: 75%;
   font-style: italic bold;
   width: auto;
 }
