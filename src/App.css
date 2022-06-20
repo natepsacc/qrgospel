@@ -5,8 +5,8 @@
   position: absolute;
   z-index: 0;
   top: auto;
-  bottom:5vh;
-  left: 20vw;;
+  bottom:minmax(1vh,15vh);
+  left: minmax(1vw,30vw);
   right: auto;
   width: fit-content;
   background-color: red;
@@ -17,13 +17,13 @@ h1{
   color: white;
   opacity: 25%;
   
-  width: auto;
+  width: 50vw;
 }
 h2{
   font-family: 'Courier New', monospace;
   font-size: 24pt;
   color: white;
-  opacity: 25%;
+  opacity: 45%;
   font-style: italic bold;
   width: auto;
 }
