@@ -8,15 +8,25 @@
   left: 20vw;;
   right: auto;
   width: 25vw;
+  background-color: red;
 }
 h1{
   font-family: 'Courier New', monospace;
   font-size: 12pt;
   color: white;
   opacity: 25%;
-  background-color:  grey;
+  
   width: auto;
 }
+h2{
+  font-family: 'Courier New', monospace;
+  font-size: 24pt;
+  color: white;
+  opacity: 25%;
+  font-style: italic;
+  width: auto;
+}
+
 .App {
   text-align: center;
 }
