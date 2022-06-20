@@ -11,12 +11,13 @@
   width: fit-content;
   background-color: red;
   padding: 5%;
+  opacity: 80%;
 }
 h1{
   font-family: 'Courier New', monospace;
   font-size: 12pt;
   color: white;
-  opacity: 25%;
+  opacity: 35%;
   
   width: 50vw;
 }
