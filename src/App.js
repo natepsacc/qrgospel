@@ -100,7 +100,7 @@ class App extends Component{
 <div className="footer">
 <h2>NOTICE</h2>
 <h1>
-*used free hosting service for svg that required me to update after a certain amount of traffic. not doing that anymore :-)  eventually i will put a hq png*
+*used free hosting service for svg that required me to update after a certain amount of traffic. not doing that anymore :-)  eventually i will put a hq png or  make a smaller svg file*
 </h1>
 </div>
       </div>
