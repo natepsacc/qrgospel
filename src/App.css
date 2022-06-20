@@ -4,7 +4,8 @@
 .footer{
   position: absolute;
   z-index: 0;
-  top: 75vh;
+  top: auto;
+  bottom:5vh;
   left: 20vw;;
   right: auto;
   width: fit-content;
